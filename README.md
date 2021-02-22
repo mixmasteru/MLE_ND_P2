@@ -93,6 +93,10 @@ The RunDetails output can be handy if the pipeline is creates with a jupyter not
 It shows the progress of the pipeline.
 ![](assets/20_ml.azure.com_rundetails.ipynb.png)
 
+### Notebook deployed endpoint
+In the notebook an output confirms the deployment of an endpoint
+![](assets/22_ml.azure.com_notebook.png)
+
 ### The pipeline run
 The UI also provides an overview of the pipeline run.
 ![](assets/21_ml.azure.com_mlpipeline_run.png)
@@ -102,26 +106,26 @@ The final step of a pipeline can be a deployed endpoint
 ![](assets/19_ml.azure.com_mlpipeline_rest1.png)
 
 
-### Potential improvements
+## Potential improvements
 Some ideas to improve the model performance, which are not done by AutoML:
 
-#### Using more training data
+### Using more training data
 Using more data is a simple and good way to prevent over-fitting, 
 and can increase accuracy.
 If we can use more data, it becomes more difficult for the model to memorize exact patterns, 
 and it's likely finds solutions that are more flexible.
 
-#### Statistical bias
+### Statistical bias
 It's important to check for statistical bias, to ensure the training 
 data doesn't include isolated patterns that won't exist in live-prediction data. 
 
-#### Target leakage
+### Target leakage
 A similar issue, where there is no over-fitting, but rather at prediction-time. 
 Target leakage can occur when data is in the training set which is not normally 
 present at prediction-time. This can be an easily happen, and can be the case for models
 with very high accuracy.
 
-#### Using fewer features
+### Using fewer features
 This can help when over-fitting occurs by preventing having too many fields
 what can lead to memorize specific patterns in the model. 
 If it's possible to remove features and get the same accuracy, the resulting model 
