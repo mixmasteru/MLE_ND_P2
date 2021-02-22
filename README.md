@@ -60,7 +60,4 @@ In this project, you will continue to work with the Bank Marketing dataset. You 
 ### The the pipeline run
 ![](assets/21_ml.azure.com_mlpipeline_run.png)
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+[![Screencast](https://img.youtube.com/vi/_1nd6NGkx4Q/0.jpg)](https://youtu.be/_1nd6NGkx4Q)
